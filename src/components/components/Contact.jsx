@@ -51,7 +51,7 @@ const Contact = () => {
       }, (err) => {
         setLoading(false);
         console.log(err);
-        alert('sum ting wong')
+        alert('something went wrong!')
       });
   };
 

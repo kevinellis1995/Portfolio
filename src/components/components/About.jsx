@@ -36,9 +36,14 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn('', '', 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum numquam qui ipsa temporibus necessitatibus fugiat nostrum consequuntur quibusdam nemo veritatis. Dignissimos autem expedita mollitia tenetur quis. Adipisci doloremque harum quod?
+        I spent my first 3 years as a Junior Developer, learning the basics and working mainly on front end solutions using HTML, CSS, and JavaScript. During this time I learned and gained experience with Node, Databases, and the Npm Ecosystem. I also learned and built frontend applications using libraries such as React, Bootstrap, and Tailwind.
       </motion.p>
-
+      <motion.p variants={fadeIn('', '', 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+        Next, I moved on to role as a mid level developer, utilizing my knowledge of full stack development and learing more along the way. Through this role I gained experience in many technologies including CI/CD, Cloud Development, ServiceNow, REST APIs, and more. 
+      </motion.p>
+      <motion.p variants={fadeIn('', '', 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+        Now, I am expanding my skills every day and looking for new roles and opportunites which will increase my knowledge and experience.  
+      </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
