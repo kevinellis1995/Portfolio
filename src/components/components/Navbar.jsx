@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../../styles';
 import { navLinks } from '../../constants';
-import { logo, menu, close } from '../../assets/assets';
+import { kevLogo, menu, close } from '../../assets/assets';
 
 const Navbar = () => {
 
@@ -21,7 +21,7 @@ const Navbar = () => {
             window.scrollTo(0, 0)
           }}
         >
-          <img src="/public/logo-color.svg" alt="not found" className='w-9 h-9 object-contain'/>
+          <img src={kevLogo} alt="not found" className='w-9 h-9 object-contain'/>
           <p className='text-white text-[18px] font-bold cursor-pointer'>Kevin Ellis &nbsp;</p><span className='sm:block hidden'>| Software Consultant</span>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>

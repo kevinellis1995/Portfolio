@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,9 +30,10 @@ import slice from "./company/slice.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import kevLogo from "./kevLogo.svg";
 
 export {
-  logo,
+  // logo,
   backend,
   creator,
   mobile,
@@ -61,4 +62,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  kevLogo
 };
