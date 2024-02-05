@@ -24,7 +24,7 @@ import {
   tripguide,
   threejs,
   slice
-} from "../assets/assets";
+} from "../assets";
 
 export const navLinks = [
   {

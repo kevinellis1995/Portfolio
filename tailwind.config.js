@@ -18,7 +18,7 @@ export const theme = {
       xs: "450px",
     },
     backgroundImage: {
-      "hero-pattern": "url('/src/assets/assets/whispy-1.png')",
+      "hero-pattern": "url('/src/assets/whispy-1.png')",
     },
   },
 };

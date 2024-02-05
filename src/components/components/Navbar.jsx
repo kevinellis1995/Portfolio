@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../../styles';
 import { navLinks } from '../../constants';
-import { kevLogo, menu, close } from '../../assets/assets';
+import { kevLogo, menu, close } from '../../assets';
 
 const Navbar = () => {
 
