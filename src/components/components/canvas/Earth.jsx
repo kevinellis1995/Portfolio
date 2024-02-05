@@ -1,6 +1,8 @@
 import { Suspense } from "react"
 import { Canvas } from "@react-three/fiber"
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+
+import { Model } from '../gltfjsx/Planet-Scene'
 
 import CanvasLoader from "../Loader"
 
@@ -31,7 +33,7 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Earth />
+        <Model scale={2.5} position-y={0} rotation-y={0} />
       </Suspense>
     </Canvas>
   )
